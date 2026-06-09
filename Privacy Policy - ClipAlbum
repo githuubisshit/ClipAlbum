@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - ClipAlbum</title>
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --text-color: #1f2937;
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --border-color: #e2e8f0;
+            --accent-bg: #eff6ff;
+            --accent-border: #bfdbfe;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 40px;
+            background: var(--card-bg);
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05), 0 2px 4px -2px rgb(0 0 0 / 0.05);
+        }
+
+        header {
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            color: #0f172a;
+            font-size: 2.2rem;
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+
+        .meta-date {
+            color: #64748b;
+            font-size: 0.95rem;
+        }
+
+        .meta-date strong {
+            color: #475569;
+        }
+
+        /* Callout / Highlight Box */
+        .highlight-box {
+            background-color: var(--accent-bg);
+            border-left: 4px solid var(--primary-color);
+            padding: 20px;
+            border-radius: 0 8px 8px 0;
+            margin: 25px 0;
+        }
+
+        .highlight-box p {
+            margin: 0;
+            font-size: 1.05rem;
+            color: #1e40af;
+            font-weight: 500;
+        }
+
+        /* Navigation Index */
+        .nav-box {
+            background-color: #f1f5f9;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 20px;
+            margin: 25px 0;
+        }
+
+        .nav-box h3 {
+            margin-top: 0;
+            color: #334155;
+            font-size: 1.1rem;
+        }
+
+        .nav-list {
+            grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+            display: grid;
+            gap: 8px;
+            padding-left: 0;
+            list-style: none;
+        }
+
+        .nav-list a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-size: 0.95rem;
+        }
+
+        .nav-list a:hover {
+            text-decoration: underline;
+        }
+
+        /* Headings */
+        h2 {
+            color: #0f172a;
+            font-size: 1.5rem;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 8px;
+            margin-top: 40px;
+        }
+
+        h3 {
+            color: #334155;
+            font-size: 1.15rem;
+            margin-top: 25px;
+        }
+
+        p, li {
+            font-size: 1rem;
+            color: #334155;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        /* Tables */
+        .table-responsive {
+            overflow-x: auto;
+            margin: 25px 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            font-size: 0.95rem;
+        }
+
+        th, td {
+            padding: 12px 16px;
+            border: 1px solid var(--border-color);
+        }
+
+        th {
+            background-color: #f1f5f9;
+            color: #1e293b;
+            font-weight: 600;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f8fafc;
+        }
+
+        /* Contact Details */
+        .contact-list {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .contact-list li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .contact-list .icon {
+            margin-right: 10px;
+            font-size: 1.1rem;
+        }
+
+        footer {
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border-color);
+            text-align: center;
+            color: #94a3b8;
+            font-size: 0.85rem;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                margin: 0;
+                padding: 20px;
+                border-radius: 0;
+            }
+            .nav-list {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Privacy Policy for ClipAlbum</h1>
+        <div class="meta-date">
+            <strong>Effective Date:</strong> June 7, 2026 &nbsp;|&nbsp; <strong>Last Updated:</strong> June 7, 2026
+        </div>
+    </header>
+
+    <div class="highlight-box">
+        <p>💡 In short: ClipAlbum is a local-first private album. Your photos, videos, and album data are, by default, stored only on your own device. We operate no servers and do not collect, upload, sell, or share your personal information.</p>
+    </div>
+
+    <p>This Privacy Policy explains how the App handles your information. It is intended to comply with the privacy and data-protection laws of jurisdictions including the United States, Canada, the United Kingdom, Australia, New Zealand, and other countries where English is an official language. Where the mandatory laws of your country or region grant you greater rights, those laws prevail.</p>
+
+    <div class="nav-box">
+        <h3>📌 Quick Navigation</h3>
+        <ul class="nav-list">
+            <li><a href="#section-1">1. Who We Are</a></li>
+            <li><a href="#section-2">2. Our Core Privacy Principle</a></li>
+            <li><a href="#section-3">3. Information We Process</a></li>
+            <li><a href="#section-4">4. Legal Bases (UK / EEA)</a></li>
+            <li><a href="#section-5">5. Disclosure of Information</a></li>
+            <li><a href="#section-6">6. No Sale or Sharing</a></li>
+            <li><a href="#section-7">7. Data Retention & Deletion</a></li>
+            <li><a href="#section-8">8. Security</a></li>
+            <li><a href="#section-9">9. International Transfers</a></li>
+            <li><a href="#section-10">10. Children's Privacy</a></li>
+            <li><a href="#section-11">11. Privacy Rights by Region</a></li>
+            <li><a href="#section-12">12. Changes to This Policy</a></li>
+            <li><a href="#section-13">13. Contact Us</a></li>
+        </ul>
+    </div>
+
+    <section id="section-1">
+        <h2>1. Who We Are</h2>
+        <p>The App is provided by <strong>Maoxia Xiang</strong> ("we", "us", or "our"). For privacy questions, contact us using the details in <a href="#section-13">Section 13</a>.</p>
+    </section>
+
+    <section id="section-2">
+        <h2>2. Our Core Privacy Principle</h2>
+        <p>The App is designed to work <strong>without collecting your personal information</strong>. We do not require an account, and we do not operate servers that receive your content or usage data.</p>
+    </section>
+
+    <section id="section-3">
+        <h2>3. Information We Process</h2>
+        
+        <h3>3.1 Local Storage (Default)</h3>
+        <p>Photos and videos you import are stored at original quality inside the App's private sandbox on your device. The App also generates thumbnails locally and stores the albums, tags, custom names, pinned status, and sort order you create in a local database. <strong>This data stays on your device, is never transmitted to us, and is never shared with third parties.</strong></p>
+
+        <h3>3.2 Photo Library Access</h3>
+        <p>To import media, the App requests permission to access your system photo library only when you actively choose to import. This permission is used solely to read the items you select. If you enable <em>"Delete original from system photo library after import,"</em> the App deletes the corresponding original locally on your device after a successful import.</p>
+
+        <h3>3.3 iCloud Sync (Optional, Pro Feature)</h3>
+        <p>If you enable iCloud Sync, the App uses Apple's CloudKit private database to sync your album data across your own devices. This data is stored in your iCloud account, governed by the Apple Privacy Policy, and we have no access to it. You can disable sync at any time.</p>
+
+        <h3>3.4 In-App Purchases</h3>
+        <p>Pro is unlocked through Apple App Store In-App Purchase. All payments are processed by Apple; we do not collect or receive your payment details. We only read Apple-provided purchase records to determine your Pro entitlement.</p>
+
+        <h3>3.5 What We Do Not Collect</h3>
+        <p>The App contains <strong>no third-party analytics, advertising, crash-reporting, or tracking SDKs</strong>. We do not collect your name, email, phone number, location, contacts, or device identifiers for tracking, and we do not profile you or use your data for advertising.</p>
+    </section>
+
+    <section id="section-4">
+        <h2>4. Legal Bases for Processing (UK / EEA)</h2>
+        <p>Because we do not collect or process personal data on our own servers, no legal basis under the UK GDPR or EU GDPR is generally engaged by us. To the extent any processing occurs (for example, on-device features you initiate), it is based on your <strong>consent</strong> and/or the <strong>performance of our agreement with you</strong>, and you may withdraw consent at any time by discontinuing the relevant feature.</p>
+    </section>
+
+    <section id="section-5">
+        <h2>5. Disclosure of Information</h2>
+        <p>We do not disclose your personal information to third parties. We may disclose information only if required by law — however, because your content remains on your device, <strong>we generally have nothing to disclose.</strong></p>
+    </section>
+
+    <section id="section-6">
+        <h2>6. No Sale or Sharing of Personal Information</h2>
+        <p>We <strong>do not sell</strong> and <strong>do not share</strong> your personal information, including as those terms are defined under the California Consumer Privacy Act (CCPA/CPRA) and similar U.S. state laws. We do not engage in targeted advertising.</p>
+    </section>
+
+    <section id="section-7">
+        <h2>7. Data Retention and Deletion</h2>
+        <div class="table-responsive">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Data Type</th>
+                        <th>Retention Policy</th>
+                        <th>How to Delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <strong><td>Local Data</td></strong>
+                        <td>Stored in the App's sandbox.</td>
+                        <td><strong>Uninstalling the App</strong> removes all photos, videos, and databases. <span style="color: #b91c1c;"><em>This is irreversible — back up first.</em></span></td>
+                    </tr>
+                    <tr>
+                        <strong><td>In-App Deletion</td></strong>
+                        <td>Controlled by you.</td>
+                        <td>You can delete individual files or albums at any time within the App.</td>
+                    </tr>
+                    <tr>
+                        <strong><td>iCloud Data</td></strong>
+                        <td>Stored in your personal iCloud.</td>
+                        <td>Manage or delete the data via your system <strong>iCloud settings</strong>.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section id="section-8">
+        <h2>8. Security</h2>
+        <p>Your files are stored in the App's private directory protected by the operating system. We recommend enabling a device passcode and <strong>Face ID / Touch ID</strong>. <small style="color: #64748b;">(Note: No method of storage is completely secure.)</small></p>
+    </section>
+
+    <section id="section-9">
+        <h2>9. International Data Transfers</h2>
+        <p>We do not transfer your personal information internationally because we do not collect it. Any iCloud data is handled by Apple in accordance with Apple's policies.</p>
+    </section>
+
+    <section id="section-10">
+        <h2>10. Children's Privacy</h2>
+        <p>The App is not directed to children. We do not knowingly collect personal information from children under 13 (United States, in compliance with COPPA), under 16 (where applicable in the UK/EEA), or under the equivalent minimum age in your jurisdiction.</p>
+    </section>
+
+    <section id="section-11">
+        <h2>11. Your Privacy Rights by Region</h2>
+        <p style="margin-bottom: 15px;">You always have full local control of your data within the App. Depending on where you live, you may also have the following statutory rights:</p>
+        
+        <div class="table-responsive">
+            <table>
+                <thead>
+                    <tr>
+                        <th style="width: 25%;">Region</th>
+                        <th>Statutory Rights & Authorities</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>United States (California)</strong></td>
+                        <td><strong>CCPA/CPRA:</strong> Rights to know, access, delete, and correct personal information; opt out of sale/sharing (we do none); and non-discrimination.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Other U.S. States</strong></td>
+                        <td>Comparable rights of access, deletion, correction, and opt-out (e.g., Virginia, Colorado, Connecticut, Utah, Texas).</td>
+                    </tr>
+                    <tr>
+                        <td><strong>United Kingdom / EEA</strong></td>
+                        <td><strong>UK GDPR / GDPR:</strong> Access, rectification, erasure, restriction, portability, and objection. You may complain to the <strong>UK ICO</strong> or your local supervisory authority.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Canada</strong></td>
+                        <td><strong>PIPEDA:</strong> Rights to access your personal information and challenge our compliance. You may contact the <strong>OPC</strong>.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Australia</strong></td>
+                        <td><strong>Privacy Act 1988:</strong> Rights to access and correct personal information. You may complain to the <strong>OAIC</strong>.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>New Zealand</strong></td>
+                        <td><strong>Privacy Act 2020:</strong> Rights to access and correct personal information. You may complain to the <strong>Privacy Commissioner (NZ)</strong>.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section id="section-12">
+        <h2>12. Changes to This Policy</h2>
+        <p>We may update this Privacy Policy from time to time and will revise the "Last Updated" date at the top of this page. Continued use constitutes acceptance.</p>
+    </section>
+
+    <section id="section-13">
+        <h2>13. Contact Us</h2>
+        <p>If you have any questions or wish to exercise your privacy rights, feel free to contact us:</p>
+        <ul class="contact-list">
+            <li><span class="icon">👤</span> <strong>Developer:</strong> &nbsp;Maoxia Xiang</li>
+            <li><span class="icon">📧</span> <strong>Email:</strong> &nbsp;<a href="mailto:philiptrip1975@gmail.com">philiptrip1975@gmail.com</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        This privacy policy is intended to comply with global data-protection laws. Where mandatory local laws grant greater rights, those laws prevail.
+    </footer>
+</div>
+
+</body>
+</html>
